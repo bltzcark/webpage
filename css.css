@@ -1,0 +1,41 @@
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#fafafa;
+}
+
+li {
+  float: left;
+  user-select: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #454545;
+  display: block;
+  padding: 15px 20px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+li a:hover {
+  text-decoration: none;
+  background-color: rgb(255, 118, 39);
+  color: #fafafa;
+}
+
+.lgHolder {
+  padding: 15 20;
+  margin-right: 10px;
+  user-select: none;
+}
+
+strong {
+  font-size: medium;
+}
